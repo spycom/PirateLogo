@@ -67,7 +67,7 @@ private var api_secret:String;
 				 
 				 
 			// ----------------------------------------------------------- /////////////
-			var version:text = new text(290, 113, "Version .007 beta", "1");
+			var version:text = new text(290, 113, "Version .008 beta", "1");
 				addChild(version);
 			// -----------------------------------------------------------////////////////
 			
@@ -124,23 +124,23 @@ private var api_secret:String;
 			buttons_array[11] = new button(400, 150, serv, "club_logo_s.jpg", "club_logo.jpg");
 			buttons_array[12] = new button(400, 200, serv, "Logo(13)_s.jpg", "Logo(13).jpg");
 			buttons_array[13] = new button(400, 250, serv, "Logo(16)_s.jpg", "Logo(16).jpg");
-			buttons_array[14] = new button(400, 300, serv, "bay_s.png", "bay.png");
-			buttons_array[15] = new button(400, 350, serv, "bay_s.png", "bay.png");
+			buttons_array[14] = new button(400, 300, serv, "pic7_s.jpg", "pic7.jpg");
+			buttons_array[15] = new button(400, 350, serv, "pic8_s.jpg", "pic8.jpg");
 			
 			buttons_array[16] = new button(450, 150, serv, "Logo(18)_s.jpg", "Logo(18).jpg");
 			buttons_array[17] = new button(450, 200, serv, "Logo(12)_s.jpg", "Logo(12).jpg");
 			buttons_array[18] = new button(450, 250, serv, "bay_s.png", "bay.png");
 			buttons_array[19] = new button(450, 300, serv, "bay_s.png", "bay.png");
-			buttons_array[20] = new button(450, 350, serv, "bay_s.png", "bay.png");
+			buttons_array[20] = new button(450, 350, serv, "pic9_s.jpg", "pic9.jpg");
 			
-			buttons_array[21] = new button(500, 150, serv, "bay_s.png", "bay.png");
-			buttons_array[22] = new button(500, 200, serv, "bay_s.png", "bay.png");	
-			buttons_array[23] = new button(500, 250, serv, "bay_s.png", "bay.png");
-			buttons_array[24] = new button(500, 300, serv, "bay_s.png", "bay.png");
-			buttons_array[25] = new button(500, 350, serv, "bay_s.png", "bay.png");
+			buttons_array[21] = new button(500, 150, serv, "pic10_s.jpg", "pic10.jpg");
+			buttons_array[22] = new button(500, 200, serv, "pic11_s.jpg", "pic11.jpg");	
+			buttons_array[23] = new button(500, 250, serv, "pic12_s.jpg", "pic12.jpg");
+			buttons_array[24] = new button(500, 300, serv, "pic13_s.jpg", "pic13.jpg");
+			buttons_array[25] = new button(500, 350, serv, "pic14_s.jpg", "pic14.jpg");
 			
-			buttons_array[26] = new button(550, 150, serv, "bay_s.png", "bay.png");
-			buttons_array[27] = new button(550, 200, serv, "bay_s.png", "bay.png");
+			buttons_array[26] = new button(550, 150, serv, "pic15_s.jpg", "pic15.jpg");
+			buttons_array[27] = new button(550, 200, serv, "pic16_s.jpg", "pic16.jpg");
 			buttons_array[28] = new button(550, 250, serv, "kepka3_s.jpg", "kepka3.jpg");
 			buttons_array[29] = new button(550, 300, serv, "kepka2_s.jpg", "kepka2.jpg");
 			buttons_array[30] = new button(550, 350, serv, "kepka_s.jpg", "kepka.jpg");	
