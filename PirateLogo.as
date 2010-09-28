@@ -67,7 +67,7 @@ private var api_secret:String;
 				 
 				 
 			// ----------------------------------------------------------- /////////////
-			var version:text = new text(290, 113, "Version .006 beta", "1");
+			var version:text = new text(290, 113, "Version .007 beta", "1");
 				addChild(version);
 			// -----------------------------------------------------------////////////////
 			
@@ -141,9 +141,9 @@ private var api_secret:String;
 			
 			buttons_array[26] = new button(550, 150, serv, "bay_s.png", "bay.png");
 			buttons_array[27] = new button(550, 200, serv, "bay_s.png", "bay.png");
-			buttons_array[28] = new button(550, 250, serv, "bay_s.png", "bay.png");
-			buttons_array[29] = new button(550, 300, serv, "bay_s.png", "bay.png");
-			buttons_array[30] = new button(550, 350, serv, "bay_s.png", "bay.png");	
+			buttons_array[28] = new button(550, 250, serv, "kepka3_s.jpg", "kepka3.jpg");
+			buttons_array[29] = new button(550, 300, serv, "kepka2_s.jpg", "kepka2.jpg");
+			buttons_array[30] = new button(550, 350, serv, "kepka_s.jpg", "kepka.jpg");	
 		
 			for (var ii:int = 1; ii <= bn; ii++) {
 				addChild(buttons_array[ii]);
