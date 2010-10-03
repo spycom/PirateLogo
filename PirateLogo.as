@@ -365,7 +365,7 @@ private var api_secret:String;
 			
 			save_button_color = 0xFF6666;
 			
-			//setStatus("а ТЫ поддерживаешь Пиратскую Партию? http://vkontakte.ru/app1955614");
+			setStatus("а ТЫ поддерживаешь Пиратскую Партию? http://vkontakte.ru/app1955614");
 		}
 		
 		private function mouseOverSave(e:MouseEvent):void {
