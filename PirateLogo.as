@@ -41,7 +41,7 @@ private var api_secret:String;
     		api_id = "1955614";
     		api_secret = 'kMqXujL3CT';
     		
-    			serv = "http://high.dih.ru/ppr/";
+    			serv = "http://89.223.1.5/pirate/";
     		var context:LoaderContext = new LoaderContext();
 				context.checkPolicyFile = true;
 			
