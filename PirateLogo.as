@@ -41,7 +41,7 @@ private var api_secret:String;
     		api_id = "1955614";
     		api_secret = 'kMqXujL3CT';
     		
-    			serv = "http://89.223.1.5/pirate/";
+    			serv = "http://woff73.valuehost.ru/woff_images/pirate/";
     		var context:LoaderContext = new LoaderContext();
 				context.checkPolicyFile = true;
 			
@@ -67,7 +67,7 @@ private var api_secret:String;
 				 
 				 
 			// ----------------------------------------------------------- /////////////
-			var version:text = new text(290, 113, "Version .008 beta", "1");
+			var version:text = new text(290, 113, "Version .01-rc", "1");
 				addChild(version);
 			// -----------------------------------------------------------////////////////
 			
