@@ -41,7 +41,8 @@ private var api_secret:String;
     		api_id = "1955614";
     		api_secret = 'kMqXujL3CT';
     		
-    			serv = "http://woff73.valuehost.ru/woff_images/pirate/";
+    			serv = "http://62.76.177.54/woff_images/pirate/";
+				
     		var context:LoaderContext = new LoaderContext();
 				context.checkPolicyFile = true;
 			
@@ -67,7 +68,7 @@ private var api_secret:String;
 				 
 				 
 			// ----------------------------------------------------------- /////////////
-			var version:text = new text(290, 113, "Version .01-rc", "1");
+			var version:text = new text(290, 113, "Version 0.1", "1");
 				addChild(version);
 			// -----------------------------------------------------------////////////////
 			
@@ -311,7 +312,7 @@ private var api_secret:String;
 		private function loadPhotoComplete(e:Event):void {
 			//save_text.setText("PhotoCmpl");
 			
-			var json_data:Object=JSON.decode(e.target.data);
+			var json_data:Object=com.adobe.serialization.json.JSON.decode(e.target.data);
 			
 			//save_text.setText(e.target.data);
 			
